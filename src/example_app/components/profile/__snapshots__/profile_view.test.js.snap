@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProfileView /> renders correctly 1`] = `
+<styled.div>
+  <h1>
+    My Account
+  </h1>
+  <form
+    onSubmit={[MockFunction]}
+  >
+    <Field
+      component={[Function]}
+      label="First Name"
+      name="firstName"
+      type="text"
+    />
+    <Field
+      component={[Function]}
+      label="Last Name"
+      name="lastName"
+      type="text"
+    />
+    <styled.button
+      buttonType="primary"
+      disabled={false}
+      primary={true}
+      type="submit"
+    >
+      Submit
+    </styled.button>
+  </form>
+</styled.div>
+`;

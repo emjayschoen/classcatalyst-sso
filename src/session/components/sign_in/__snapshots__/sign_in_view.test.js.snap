@@ -1,0 +1,316 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SignInView /> not logged in with error renders correctly 1`] = `
+<styled.div>
+  <form
+    onSubmit={[Function]}
+  >
+    <h3>
+      Sign In
+    </h3>
+    <Field
+      component={[Function]}
+      fullWidth={true}
+      label="Email"
+      name="email"
+      required={true}
+      type="text"
+    />
+    <Field
+      component={[Function]}
+      fullWidth={true}
+      label="Password"
+      name="password"
+      required={true}
+      type="password"
+    />
+    <input
+      className="btn"
+      disabled={false}
+      type="submit"
+      value="Login"
+    />
+    <span
+      className="status"
+    />
+    <div
+      className="oauth-row"
+    >
+      <span>
+        Sign in with:
+      </span>
+      <a
+        className="oauth-button"
+        href="/mockauth/linkedin/%2Ffoo%2Fbar"
+        key="linkedin"
+      >
+        <i
+          className="fab fa-linkedin fa-5x"
+        />
+      </a>
+      <a
+        className="oauth-button"
+        href="/mockauth/facebook/%2Ffoo%2Fbar"
+        key="facebook"
+      >
+        <i
+          className="fab fa-facebook fa-5x"
+        />
+      </a>
+      <a
+        className="oauth-button"
+        href="/mockauth/google/%2Ffoo%2Fbar"
+        key="google"
+      >
+        <i
+          className="fab fa-google fa-5x"
+        />
+      </a>
+      <a
+        className="oauth-button"
+        href="/mockauth/twitter/%2Ffoo%2Fbar"
+        key="twitter"
+      >
+        <i
+          className="fab fa-twitter fa-5x"
+        />
+      </a>
+    </div>
+    <p>
+      <Link
+        to="/forgot"
+      >
+        Lost your password?
+      </Link>
+      <span
+        style={
+          Object {
+            "padding": "0 1em",
+          }
+        }
+      >
+        |
+      </span>
+      <Link
+        to="/register"
+      >
+        Don't have an account?
+      </Link>
+    </p>
+  </form>
+</styled.div>
+`;
+
+exports[`<SignInView /> not logged in without error renders correctly 1`] = `
+<styled.div>
+  <form
+    onSubmit={[Function]}
+  >
+    <h3>
+      Sign In
+    </h3>
+    <Field
+      component={[Function]}
+      fullWidth={true}
+      label="Email"
+      name="email"
+      required={true}
+      type="text"
+    />
+    <Field
+      component={[Function]}
+      fullWidth={true}
+      label="Password"
+      name="password"
+      required={true}
+      type="password"
+    />
+    <input
+      className="btn"
+      disabled={false}
+      type="submit"
+      value="Login"
+    />
+    <span
+      className="status"
+    />
+    <div
+      className="oauth-row"
+    >
+      <span>
+        Sign in with:
+      </span>
+      <a
+        className="oauth-button"
+        href="/mockauth/linkedin/%2Ffoo%2Fbar"
+        key="linkedin"
+      >
+        <i
+          className="fab fa-linkedin fa-5x"
+        />
+      </a>
+      <a
+        className="oauth-button"
+        href="/mockauth/facebook/%2Ffoo%2Fbar"
+        key="facebook"
+      >
+        <i
+          className="fab fa-facebook fa-5x"
+        />
+      </a>
+      <a
+        className="oauth-button"
+        href="/mockauth/google/%2Ffoo%2Fbar"
+        key="google"
+      >
+        <i
+          className="fab fa-google fa-5x"
+        />
+      </a>
+      <a
+        className="oauth-button"
+        href="/mockauth/twitter/%2Ffoo%2Fbar"
+        key="twitter"
+      >
+        <i
+          className="fab fa-twitter fa-5x"
+        />
+      </a>
+    </div>
+    <p>
+      <Link
+        to="/forgot"
+      >
+        Lost your password?
+      </Link>
+      <span
+        style={
+          Object {
+            "padding": "0 1em",
+          }
+        }
+      >
+        |
+      </span>
+      <Link
+        to="/register"
+      >
+        Don't have an account?
+      </Link>
+    </p>
+  </form>
+</styled.div>
+`;
+
+exports[`<SignInView /> not logged in without location set renders correctly 1`] = `
+<styled.div>
+  <form
+    onSubmit={[Function]}
+  >
+    <h3>
+      Sign In
+    </h3>
+    <Field
+      component={[Function]}
+      fullWidth={true}
+      label="Email"
+      name="email"
+      required={true}
+      type="text"
+    />
+    <Field
+      component={[Function]}
+      fullWidth={true}
+      label="Password"
+      name="password"
+      required={true}
+      type="password"
+    />
+    <input
+      className="btn"
+      disabled={false}
+      type="submit"
+      value="Login"
+    />
+    <span
+      className="status"
+    />
+    <div
+      className="oauth-row"
+    >
+      <span>
+        Sign in with:
+      </span>
+      <a
+        className="oauth-button"
+        href="/mockauth/linkedin/%2Fdashboard"
+        key="linkedin"
+      >
+        <i
+          className="fab fa-linkedin fa-5x"
+        />
+      </a>
+      <a
+        className="oauth-button"
+        href="/mockauth/facebook/%2Fdashboard"
+        key="facebook"
+      >
+        <i
+          className="fab fa-facebook fa-5x"
+        />
+      </a>
+      <a
+        className="oauth-button"
+        href="/mockauth/google/%2Fdashboard"
+        key="google"
+      >
+        <i
+          className="fab fa-google fa-5x"
+        />
+      </a>
+      <a
+        className="oauth-button"
+        href="/mockauth/twitter/%2Fdashboard"
+        key="twitter"
+      >
+        <i
+          className="fab fa-twitter fa-5x"
+        />
+      </a>
+    </div>
+    <p>
+      <Link
+        to="/forgot"
+      >
+        Lost your password?
+      </Link>
+      <span
+        style={
+          Object {
+            "padding": "0 1em",
+          }
+        }
+      >
+        |
+      </span>
+      <Link
+        to="/register"
+      >
+        Don't have an account?
+      </Link>
+    </p>
+  </form>
+</styled.div>
+`;
+
+exports[`<SignInView /> when already logged in with a returnTo location state set renders correctly 1`] = `
+<Redirect
+  to="/foo/bar"
+/>
+`;
+
+exports[`<SignInView /> when already logged in without a returnTo location state set renders correctly 1`] = `
+<Redirect
+  to="/dashboard"
+/>
+`;

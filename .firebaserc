@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "staging": "CHANGEME-staging",
+    "production": "CHANGEME-prod"
+  }
+}

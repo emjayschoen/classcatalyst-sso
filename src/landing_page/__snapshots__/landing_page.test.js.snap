@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LandingPage /> renders correctly 1`] = `
+"<Provider store={{...}}>
+  <Connect(LandingPageView)>
+    <LandingPageView page={[undefined]}>
+      <styled.div>
+        <div className=\\"sc-AxjAm StDqN\\">
+          <styled.div>
+            <div className=\\"sc-AxiKw cbPPIh\\">
+              <b>
+                CHANGEME-title
+              </b>
+            </div>
+          </styled.div>
+          <styled.div>
+            <div className=\\"sc-AxirZ joA-Dxa\\">
+              <styled.div>
+                <div className=\\"sc-AxhCb cuHlXo\\">
+                  <h1 />
+                  <h2 />
+                </div>
+              </styled.div>
+            </div>
+          </styled.div>
+          <styled.div>
+            <div className=\\"sc-AxhCb cuHlXo\\">
+              <hr />
+              <Connect(ReduxForm)>
+                <ReduxForm initialValues={{...}} status={{...}} onSubmit={[Function: onSubmit]} touchOnBlur={true} touchOnChange={false} persistentSubmitErrors={false} destroyOnUnmount={true} shouldAsyncValidate={[Function: defaultShouldAsyncValidate]} shouldValidate={[Function: defaultShouldValidate]} shouldError={[Function: defaultShouldError]} shouldWarn={[Function: defaultShouldWarn]} enableReinitialize={true} keepDirtyOnReinitialize={false} updateUnregisteredFields={false} getFormState={[Function: getFormState]} pure={true} forceUnregisterOnUnmount={false} submitAsSideEffect={false} form=\\"ContactForm\\" validate={[Function: validate]}>
+                  <Hoc initialValues={{...}} status={{...}} onSubmit={[Function: onSubmit]} touchOnBlur={true} touchOnChange={false} persistentSubmitErrors={false} destroyOnUnmount={true} shouldAsyncValidate={[Function: defaultShouldAsyncValidate]} shouldValidate={[Function: defaultShouldValidate]} shouldError={[Function: defaultShouldError]} shouldWarn={[Function: defaultShouldWarn]} enableReinitialize={true} keepDirtyOnReinitialize={false} updateUnregisteredFields={false} getFormState={[Function: getFormState]} pure={true} forceUnregisterOnUnmount={false} submitAsSideEffect={false} form=\\"ContactForm\\" validate={[Function: validate]} forwardedRef={{...}}>
+                    <ReduxForm initialValues={{...}} status={{...}} onSubmit={[Function: onSubmit]} touchOnBlur={true} touchOnChange={false} persistentSubmitErrors={false} destroyOnUnmount={true} shouldAsyncValidate={[Function: defaultShouldAsyncValidate]} shouldValidate={[Function: defaultShouldValidate]} shouldError={[Function: defaultShouldError]} shouldWarn={[Function: defaultShouldWarn]} enableReinitialize={true} keepDirtyOnReinitialize={false} updateUnregisteredFields={false} getFormState={[Function: getFormState]} pure={true} forceUnregisterOnUnmount={false} submitAsSideEffect={false} form=\\"ContactForm\\" validate={[Function: validate]} _reduxForm={{...}}>
+                      <Connect(Form(ContactForm)) status={{...}} onSubmit={[Function: onSubmit]} touchOnBlur={true} touchOnChange={false} persistentSubmitErrors={false} destroyOnUnmount={true} shouldAsyncValidate={[Function: defaultShouldAsyncValidate]} shouldValidate={[Function: defaultShouldValidate]} shouldError={[Function: defaultShouldError]} shouldWarn={[Function: defaultShouldWarn]} enableReinitialize={true} keepDirtyOnReinitialize={false} updateUnregisteredFields={false} getFormState={[Function: getFormState]} pure={true} forceUnregisterOnUnmount={false} submitAsSideEffect={false} form=\\"ContactForm\\" validate={[Function: validate]} _reduxForm={{...}} initialValues={{...}}>
+                        <Connect(Form(ContactForm)) status={{...}} onSubmit={[Function: onSubmit]} touchOnBlur={true} touchOnChange={false} persistentSubmitErrors={false} destroyOnUnmount={true} shouldAsyncValidate={[Function: defaultShouldAsyncValidate]} shouldValidate={[Function: defaultShouldValidate]} shouldError={[Function: defaultShouldError]} shouldWarn={[Function: defaultShouldWarn]} enableReinitialize={true} keepDirtyOnReinitialize={false} updateUnregisteredFields={false} getFormState={[Function: getFormState]} pure={true} forceUnregisterOnUnmount={false} submitAsSideEffect={false} form=\\"ContactForm\\" validate={[Function: validate]} _reduxForm={{...}} initialValues={{...}} reactReduxForwardedRef={{...}}>
+                          <Form(ContactForm) status={{...}} onSubmit={[Function: onSubmit]} touchOnBlur={true} touchOnChange={false} persistentSubmitErrors={false} destroyOnUnmount={true} shouldAsyncValidate={[Function: defaultShouldAsyncValidate]} shouldValidate={[Function: defaultShouldValidate]} shouldError={[Function: defaultShouldError]} shouldWarn={[Function: defaultShouldWarn]} enableReinitialize={true} keepDirtyOnReinitialize={false} updateUnregisteredFields={false} getFormState={[Function: getFormState]} pure={true} forceUnregisterOnUnmount={false} submitAsSideEffect={false} form=\\"ContactForm\\" validate={[Function: validate]} _reduxForm={{...}} initialValues={{...}} anyTouched={false} asyncErrors={[undefined]} asyncValidating={false} dirty={false} error={[undefined]} initialized={true} invalid={true} pristine={true} registeredFields={{...}} submitting={false} submitFailed={false} submitSucceeded={false} syncErrors={{...}} syncWarnings={{...}} triggerSubmit={[undefined]} values={{...}} valid={false} validExceptSubmit={false} warning={[undefined]} autofill={[Function (anonymous)]} clearFields={[Function (anonymous)]} clearSubmit={[Function (anonymous)]} clearSubmitErrors={[Function (anonymous)]} clearAsyncError={[Function (anonymous)]} destroy={[Function (anonymous)]} initialize={[Function (anonymous)]} registerField={[Function (anonymous)]} reset={[Function (anonymous)]} resetSection={[Function (anonymous)]} startAsyncValidation={[Function (anonymous)]} startSubmit={[Function (anonymous)]} stopAsyncValidation={[Function (anonymous)]} stopSubmit={[Function (anonymous)]} submit={[Function (anonymous)]} setSubmitFailed={[Function (anonymous)]} setSubmitSucceeded={[Function (anonymous)]} touch={[Function (anonymous)]} unregisterField={[Function (anonymous)]} untouch={[Function (anonymous)]} updateSyncErrors={[Function (anonymous)]} updateSyncWarnings={[Function (anonymous)]} arrayInsert={[Function: bound arrayInsert]} arrayMove={[Function: bound arrayMove]} arrayPop={[Function: bound arrayPop]} arrayPush={[Function: bound arrayPush]} arrayRemove={[Function: bound arrayRemove]} arrayRemoveAll={[Function: bound arrayRemoveAll]} arrayShift={[Function: bound arrayShift]} arraySplice={[Function: bound arraySplice]} arraySwap={[Function: bound arraySwap]} arrayUnshift={[Function: bound arrayUnshift]} blur={[Function: boundBlur]} change={[Function: boundChange]} array={{...}} focus={[Function: bound focus]} dispatch={[Function (anonymous)]}>
+                            <ContactForm array={{...}} anyTouched={false} asyncValidate={[Function (anonymous)]} asyncValidating={false} blur={[Function (anonymous)]} change={[Function (anonymous)]} clearSubmit={[Function (anonymous)]} destroy={[Function (anonymous)]} dirty={false} dispatch={[Function (anonymous)]} error={[undefined]} form=\\"ContactForm\\" handleSubmit={[Function (anonymous)]} initialize={[Function (anonymous)]} initialized={true} initialValues={{...}} invalid={true} pristine={true} reset={[Function (anonymous)]} resetSection={[Function (anonymous)]} submitting={false} submitAsSideEffect={false} submitFailed={false} submitSucceeded={false} touch={[Function (anonymous)]} untouch={[Function (anonymous)]} valid={false} warning={[undefined]} status={{...}} onSubmit={[Function: onSubmit]} pure={true} validate={[Function: validate]} _reduxForm={{...}} triggerSubmit={[undefined]} autofill={[Function (anonymous)]} clearFields={[Function (anonymous)]} clearSubmitErrors={[Function (anonymous)]} clearAsyncError={[Function (anonymous)]} submit={[Function (anonymous)]}>
+                              <styled.div>
+                                <div className=\\"sc-AxgMl bOXbCA\\">
+                                  <h2>
+                                    Sign up for updates
+                                  </h2>
+                                  <MuiThemeProviderOld theme={{...}}>
+                                    <form onSubmit={[Function (anonymous)]}>
+                                      <div className=\\"row\\">
+                                        <div className=\\"col-sm-3\\">
+                                          <Field component={[Function: TextField]} label=\\"First Name\\" type=\\"text\\" name=\\"firstname\\" fullWidth={true}>
+                                            <Hoc component={[Function: TextField]} label=\\"First Name\\" type=\\"text\\" name=\\"firstname\\" fullWidth={true} forwardedRef={{...}}>
+                                              <Field component={[Function: TextField]} label=\\"First Name\\" type=\\"text\\" name=\\"firstname\\" fullWidth={true} _reduxForm={{...}}>
+                                                <Connect(ConnectedField) component={[Function: TextField]} label=\\"First Name\\" type=\\"text\\" name=\\"firstname\\" fullWidth={true} _reduxForm={{...}} normalize={[Function (anonymous)]}>
+                                                  <Connect(ConnectedField) component={[Function: TextField]} label=\\"First Name\\" type=\\"text\\" name=\\"firstname\\" fullWidth={true} _reduxForm={{...}} normalize={[Function (anonymous)]} reactReduxForwardedRef={{...}}>
+                                                    <ConnectedField component={[Function: TextField]} label=\\"First Name\\" type=\\"text\\" name=\\"firstname\\" fullWidth={true} _reduxForm={{...}} normalize={[Function (anonymous)]} asyncError={[undefined]} asyncValidating={false} dirty={false} pristine={true} state={[undefined]} submitError={[undefined]} submitFailed={[undefined]} submitting={[undefined]} syncError={[undefined]} syncWarning={[undefined]} initial={[undefined]} value={[undefined]} _value={[undefined]} dispatch={[Function (anonymous)]}>
+                                                      <TextField input={{...}} meta={{...}} label=\\"First Name\\" type=\\"text\\" fullWidth={true} textarea={false} rows={1} required={true}>
+                                                        <styled.div>
+                                                          <div className=\\"sc-AxmLO qZgxC\\">
+                                                            <label htmlFor=\\"firstname\\">
+                                                              First Name
+                                                               
+                                                              *
+                                                              <input id=\\"firstname\\" name=\\"firstname\\" onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onDragStart={[Function (anonymous)]} onDrop={[Function (anonymous)]} onFocus={[Function (anonymous)]} value=\\"\\" placeholder=\\"First Name\\" type=\\"text\\" className=\\"\\" />
+                                                            </label>
+                                                          </div>
+                                                        </styled.div>
+                                                      </TextField>
+                                                    </ConnectedField>
+                                                  </Connect(ConnectedField)>
+                                                </Connect(ConnectedField)>
+                                              </Field>
+                                            </Hoc>
+                                          </Field>
+                                        </div>
+                                        <div className=\\"col-sm-3\\">
+                                          <Field component={[Function: TextField]} label=\\"Last Name\\" type=\\"text\\" name=\\"lastname\\" fullWidth={true}>
+                                            <Hoc component={[Function: TextField]} label=\\"Last Name\\" type=\\"text\\" name=\\"lastname\\" fullWidth={true} forwardedRef={{...}}>
+                                              <Field component={[Function: TextField]} label=\\"Last Name\\" type=\\"text\\" name=\\"lastname\\" fullWidth={true} _reduxForm={{...}}>
+                                                <Connect(ConnectedField) component={[Function: TextField]} label=\\"Last Name\\" type=\\"text\\" name=\\"lastname\\" fullWidth={true} _reduxForm={{...}} normalize={[Function (anonymous)]}>
+                                                  <Connect(ConnectedField) component={[Function: TextField]} label=\\"Last Name\\" type=\\"text\\" name=\\"lastname\\" fullWidth={true} _reduxForm={{...}} normalize={[Function (anonymous)]} reactReduxForwardedRef={{...}}>
+                                                    <ConnectedField component={[Function: TextField]} label=\\"Last Name\\" type=\\"text\\" name=\\"lastname\\" fullWidth={true} _reduxForm={{...}} normalize={[Function (anonymous)]} asyncError={[undefined]} asyncValidating={false} dirty={false} pristine={true} state={[undefined]} submitError={[undefined]} submitFailed={[undefined]} submitting={[undefined]} syncError={[undefined]} syncWarning={[undefined]} initial={[undefined]} value={[undefined]} _value={[undefined]} dispatch={[Function (anonymous)]}>
+                                                      <TextField input={{...}} meta={{...}} label=\\"Last Name\\" type=\\"text\\" fullWidth={true} textarea={false} rows={1} required={true}>
+                                                        <styled.div>
+                                                          <div className=\\"sc-AxmLO qZgxC\\">
+                                                            <label htmlFor=\\"lastname\\">
+                                                              Last Name
+                                                               
+                                                              *
+                                                              <input id=\\"lastname\\" name=\\"lastname\\" onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onDragStart={[Function (anonymous)]} onDrop={[Function (anonymous)]} onFocus={[Function (anonymous)]} value=\\"\\" placeholder=\\"Last Name\\" type=\\"text\\" className=\\"\\" />
+                                                            </label>
+                                                          </div>
+                                                        </styled.div>
+                                                      </TextField>
+                                                    </ConnectedField>
+                                                  </Connect(ConnectedField)>
+                                                </Connect(ConnectedField)>
+                                              </Field>
+                                            </Hoc>
+                                          </Field>
+                                        </div>
+                                        <div className=\\"col-sm-4\\">
+                                          <Field component={[Function: TextField]} label=\\"Email Address\\" name=\\"email\\" type=\\"email\\" fullWidth={true} required={true}>
+                                            <Hoc component={[Function: TextField]} label=\\"Email Address\\" name=\\"email\\" type=\\"email\\" fullWidth={true} required={true} forwardedRef={{...}}>
+                                              <Field component={[Function: TextField]} label=\\"Email Address\\" name=\\"email\\" type=\\"email\\" fullWidth={true} required={true} _reduxForm={{...}}>
+                                                <Connect(ConnectedField) component={[Function: TextField]} label=\\"Email Address\\" name=\\"email\\" type=\\"email\\" fullWidth={true} required={true} _reduxForm={{...}} normalize={[Function (anonymous)]}>
+                                                  <Connect(ConnectedField) component={[Function: TextField]} label=\\"Email Address\\" name=\\"email\\" type=\\"email\\" fullWidth={true} required={true} _reduxForm={{...}} normalize={[Function (anonymous)]} reactReduxForwardedRef={{...}}>
+                                                    <ConnectedField component={[Function: TextField]} label=\\"Email Address\\" name=\\"email\\" type=\\"email\\" fullWidth={true} required={true} _reduxForm={{...}} normalize={[Function (anonymous)]} asyncError={[undefined]} asyncValidating={false} dirty={false} pristine={true} state={[undefined]} submitError={[undefined]} submitFailed={[undefined]} submitting={[undefined]} syncError=\\"required\\" syncWarning={[undefined]} initial={[undefined]} value={[undefined]} _value={[undefined]} dispatch={[Function (anonymous)]}>
+                                                      <TextField input={{...}} meta={{...}} label=\\"Email Address\\" type=\\"email\\" fullWidth={true} required={true} textarea={false} rows={1}>
+                                                        <styled.div>
+                                                          <div className=\\"sc-AxmLO qZgxC\\">
+                                                            <label htmlFor=\\"email\\">
+                                                              Email Address
+                                                               
+                                                              *
+                                                              <input id=\\"email\\" name=\\"email\\" onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onDragStart={[Function (anonymous)]} onDrop={[Function (anonymous)]} onFocus={[Function (anonymous)]} value=\\"\\" placeholder=\\"Email Address\\" type=\\"email\\" className=\\"\\" />
+                                                            </label>
+                                                          </div>
+                                                        </styled.div>
+                                                      </TextField>
+                                                    </ConnectedField>
+                                                  </Connect(ConnectedField)>
+                                                </Connect(ConnectedField)>
+                                              </Field>
+                                            </Hoc>
+                                          </Field>
+                                        </div>
+                                        <div className=\\"col-sm-2\\">
+                                          <input type=\\"submit\\" className=\\"btn primary\\" style={{...}} value=\\"Sign Up\\" />
+                                        </div>
+                                      </div>
+                                    </form>
+                                  </MuiThemeProviderOld>
+                                </div>
+                              </styled.div>
+                            </ContactForm>
+                          </Form(ContactForm)>
+                        </Connect(Form(ContactForm))>
+                      </Connect(Form(ContactForm))>
+                    </ReduxForm>
+                  </Hoc>
+                </ReduxForm>
+              </Connect(ReduxForm)>
+            </div>
+          </styled.div>
+          <styled.div>
+            <div className=\\"sc-AxhUy cAOipy\\">
+              <styled.div>
+                <div className=\\"sc-AxhCb cuHlXo\\">
+                  © Copyright CHANGEME-title 2018. All Rights Reserved.
+                </div>
+              </styled.div>
+            </div>
+          </styled.div>
+        </div>
+      </styled.div>
+    </LandingPageView>
+  </Connect(LandingPageView)>
+</Provider>"
+`;

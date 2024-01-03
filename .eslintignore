@@ -1,0 +1,4 @@
+**/node_modules/**/*
+generators
+build
+service_worker.js

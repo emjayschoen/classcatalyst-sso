@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MockAuthView /> renders correctly 1`] = `
+<styled.div>
+  <h3>
+    This is not sid.
+  </h3>
+  <p>
+    Sorry to disappoint you, but this is just a simulation...
+  </p>
+  <Link
+    to="/finish_signin?returnTo=%2Ffun%2Fand%2Fprofit"
+  >
+    Finish signing in
+  </Link>
+</styled.div>
+`;

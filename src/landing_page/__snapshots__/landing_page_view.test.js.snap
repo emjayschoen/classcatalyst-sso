@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LandingPageView /> renders correctly 1`] = `
+<styled.div>
+  <styled.div>
+    <b>
+      CHANGEME-title
+    </b>
+  </styled.div>
+  <styled.div>
+    <styled.div>
+      <h1 />
+      <h2 />
+    </styled.div>
+  </styled.div>
+  <styled.div>
+    <hr />
+    <Connect(ReduxForm) />
+  </styled.div>
+  <styled.div>
+    <styled.div>
+      © Copyright CHANGEME-title 2018. All Rights Reserved.
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;

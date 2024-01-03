@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RegisterView /> not logged in with error renders correctly 1`] = `
+<styled.div>
+  <form
+    onSubmit={[Function]}
+  >
+    <h3>
+      Sign Up
+    </h3>
+    <Field
+      component={[Function]}
+      fullWidth={true}
+      label="Name"
+      name="name"
+      required={true}
+      type="text"
+    />
+    <Field
+      component={[Function]}
+      fullWidth={true}
+      label="Email"
+      name="email"
+      required={true}
+      type="text"
+    />
+    <Field
+      component={[Function]}
+      fullWidth={true}
+      label="Password"
+      name="password"
+      required={true}
+      type="password"
+    />
+    <Field
+      component={[Function]}
+      fullWidth={true}
+      label="Password Confirmation"
+      name="password_confirmation"
+      required={true}
+      type="password"
+    />
+    <input
+      className="btn"
+      disabled={false}
+      type="submit"
+      value="Register"
+    />
+    <span
+      className="status"
+    />
+    <p>
+      <Link
+        to="/signin"
+      >
+        Already have an account?
+      </Link>
+    </p>
+  </form>
+</styled.div>
+`;
+
+exports[`<RegisterView /> not logged in without error renders correctly 1`] = `
+<styled.div>
+  <form
+    onSubmit={[Function]}
+  >
+    <h3>
+      Sign Up
+    </h3>
+    <Field
+      component={[Function]}
+      fullWidth={true}
+      label="Name"
+      name="name"
+      required={true}
+      type="text"
+    />
+    <Field
+      component={[Function]}
+      fullWidth={true}
+      label="Email"
+      name="email"
+      required={true}
+      type="text"
+    />
+    <Field
+      component={[Function]}
+      fullWidth={true}
+      label="Password"
+      name="password"
+      required={true}
+      type="password"
+    />
+    <Field
+      component={[Function]}
+      fullWidth={true}
+      label="Password Confirmation"
+      name="password_confirmation"
+      required={true}
+      type="password"
+    />
+    <input
+      className="btn"
+      disabled={false}
+      type="submit"
+      value="Register"
+    />
+    <span
+      className="status"
+    />
+    <p>
+      <Link
+        to="/signin"
+      >
+        Already have an account?
+      </Link>
+    </p>
+  </form>
+</styled.div>
+`;
+
+exports[`<RegisterView /> not logged in without location set renders correctly 1`] = `
+<styled.div>
+  <form
+    onSubmit={[Function]}
+  >
+    <h3>
+      Sign Up
+    </h3>
+    <Field
+      component={[Function]}
+      fullWidth={true}
+      label="Name"
+      name="name"
+      required={true}
+      type="text"
+    />
+    <Field
+      component={[Function]}
+      fullWidth={true}
+      label="Email"
+      name="email"
+      required={true}
+      type="text"
+    />
+    <Field
+      component={[Function]}
+      fullWidth={true}
+      label="Password"
+      name="password"
+      required={true}
+      type="password"
+    />
+    <Field
+      component={[Function]}
+      fullWidth={true}
+      label="Password Confirmation"
+      name="password_confirmation"
+      required={true}
+      type="password"
+    />
+    <input
+      className="btn"
+      disabled={false}
+      type="submit"
+      value="Register"
+    />
+    <span
+      className="status"
+    />
+    <p>
+      <Link
+        to="/signin"
+      >
+        Already have an account?
+      </Link>
+    </p>
+  </form>
+</styled.div>
+`;
+
+exports[`<RegisterView /> when already logged in with a returnTo location state set renders correctly 1`] = `
+<Redirect
+  to="/foo/bar"
+/>
+`;
+
+exports[`<RegisterView /> when already logged in without a returnTo location state set renders correctly 1`] = `
+<Redirect
+  to="/dashboard"
+/>
+`;

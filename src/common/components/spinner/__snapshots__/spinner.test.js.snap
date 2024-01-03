@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Spinner /> renders correctly 1`] = `
+<FontAwesome
+  name="spinner"
+  spin={true}
+/>
+`;

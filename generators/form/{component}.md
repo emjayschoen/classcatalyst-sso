@@ -1,0 +1,4 @@
+Without params:
+```js
+<{className} />
+```

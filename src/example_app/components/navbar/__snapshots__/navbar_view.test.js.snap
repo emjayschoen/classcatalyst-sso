@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavbarView /> signed in renders correctly 1`] = `
+<styled.div>
+  <h3>
+    NAV BAR
+  </h3>
+  <p>
+    You are currently
+     signed in!
+  </p>
+</styled.div>
+`;
+
+exports[`<NavbarView /> signed out renders correctly 1`] = `
+<styled.div>
+  <h3>
+    NAV BAR
+  </h3>
+  <p>
+    You are currently
+     signed out!
+  </p>
+</styled.div>
+`;

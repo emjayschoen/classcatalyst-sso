@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeView /> renders correctly 1`] = `
+<styled.div>
+  <h3>
+    HOME VIEW
+  </h3>
+</styled.div>
+`;

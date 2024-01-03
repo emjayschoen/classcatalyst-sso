@@ -1,0 +1,6 @@
+#!/bin/sh
+
+export REACT_APP_GIT_VERSION=`git describe --tags --long --always --dirty --broken`
+echo $REACT_APP_GIT_VERSION
+
+yarn start

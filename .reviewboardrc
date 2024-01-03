@@ -1,0 +1,2 @@
+REVIEWBOARD_URL = 'https://cr.protalabs.com/'
+REPOSITORY = 'CHANGEME-slug'

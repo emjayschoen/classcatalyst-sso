@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderView /> signed in renders correctly 1`] = `
+<styled.div>
+  <header>
+    <h2>
+      Example App
+    </h2>
+    <Link
+      to="/signout"
+    >
+      Sign Out
+    </Link>
+  </header>
+</styled.div>
+`;
+
+exports[`<HeaderView /> signed out renders correctly 1`] = `
+<styled.div>
+  <header>
+    <h2>
+      Example App
+    </h2>
+    <Link
+      to="/signin"
+    >
+      Sign In
+    </Link>
+  </header>
+</styled.div>
+`;

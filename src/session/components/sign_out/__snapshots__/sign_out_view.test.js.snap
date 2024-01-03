@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SignOutView /> when signed in renders correctly 1`] = `<Spinner />`;
+
+exports[`<SignOutView /> when signed out renders correctly 1`] = `
+<Redirect
+  to="/"
+/>
+`;

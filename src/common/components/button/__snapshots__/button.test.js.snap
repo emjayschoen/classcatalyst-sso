@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> disabled renders correctly 1`] = `
+.c0 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  border-radius: 0.5em;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.1em;
+  -moz-letter-spacing: 0.1em;
+  -ms-letter-spacing: 0.1em;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  padding: 0.75rem 1.5rem;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background-color 150ms ease-in;
+  transition: background-color 150ms ease-in;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  background-color: #0000EE;
+  color: undefined !important;
+}
+
+.c0:hover {
+  background-color: #0000EE;
+  color: #777777;
+}
+
+.c0:disabled {
+  color: !important;
+  cursor: not-allowed;
+}
+
+.c0:disabled:hover {
+  color: !important;
+}
+
+.c0:hover {
+  background-color: #0000CC;
+  border: 0;
+}
+
+<button
+  className="c0"
+  disabled={true}
+/>
+`;
+
+exports[`<Button /> primary renders correctly 1`] = `
+.c0 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  border-radius: 0.5em;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.1em;
+  -moz-letter-spacing: 0.1em;
+  -ms-letter-spacing: 0.1em;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  padding: 0.75rem 1.5rem;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background-color 150ms ease-in;
+  transition: background-color 150ms ease-in;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  background-color: #0000EE;
+  color: undefined !important;
+}
+
+.c0:hover {
+  background-color: #0000EE;
+  color: #777777;
+}
+
+.c0:disabled {
+  color: !important;
+  cursor: not-allowed;
+}
+
+.c0:disabled:hover {
+  color: !important;
+}
+
+.c0:hover {
+  background-color: #0000CC;
+  border: 0;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<Button /> renders correctly 1`] = `
+.c0 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  border-radius: 0.5em;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.1em;
+  -moz-letter-spacing: 0.1em;
+  -ms-letter-spacing: 0.1em;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  padding: 0.75rem 1.5rem;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background-color 150ms ease-in;
+  transition: background-color 150ms ease-in;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  background-color: #0000EE;
+  color: undefined !important;
+}
+
+.c0:hover {
+  background-color: #0000EE;
+  color: #777777;
+}
+
+.c0:disabled {
+  color: !important;
+  cursor: not-allowed;
+}
+
+.c0:disabled:hover {
+  color: !important;
+}
+
+.c0:hover {
+  background-color: #0000CC;
+  border: 0;
+}
+
+<button
+  className="c0"
+/>
+`;

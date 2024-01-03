@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FinishSignInView /> when not signed in with meaningless search params renders correctly 1`] = `
+<styled.div>
+  <Spinner />
+</styled.div>
+`;
+
+exports[`<FinishSignInView /> when not signed in with returnTo search params renders correctly 1`] = `
+<styled.div>
+  <Spinner />
+</styled.div>
+`;
+
+exports[`<FinishSignInView /> when not signed in without search params renders correctly 1`] = `
+<styled.div>
+  <Spinner />
+</styled.div>
+`;
+
+exports[`<FinishSignInView /> when signed in with meaningless search params renders correctly 1`] = `
+<Redirect
+  to={
+    Object {
+      "pathname": "/signin",
+      "state": Object {
+        "returnTo": undefined,
+      },
+    }
+  }
+/>
+`;
+
+exports[`<FinishSignInView /> when signed in with returnTo search params renders correctly 1`] = `
+<Redirect
+  to={
+    Object {
+      "pathname": "/signin",
+      "state": Object {
+        "returnTo": "/foo/bar",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<FinishSignInView /> when signed in without search params renders correctly 1`] = `
+<Redirect
+  to={
+    Object {
+      "pathname": "/signin",
+      "state": Object {
+        "returnTo": undefined,
+      },
+    }
+  }
+/>
+`;

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "xyz123",
+    "email": "admin@test.com",
+    "authToken": "adminToken",
+    "firstName": "Q",
+    "lastName": "Test",
+    "password": "321321"
+  },
+  {
+    "id": "123jack",
+    "email": "jackson@test.com",
+    "authToken": "jacksonToken",
+    "firstName": "Jackson",
+    "lastName": "Test",
+    "password": "123123"
+  },
+  {
+    "id": "123stu",
+    "email": "stu@test.com",
+    "authToken": "stuToken",
+    "firstName": "Stu",
+    "lastName": "Test",
+    "password": "55555"
+  }
+]

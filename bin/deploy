@@ -1,0 +1,42 @@
+#!/bin/sh
+
+JQ_TEST=`echo '{"a": "working"}' | jq .a -r`
+if [ "$JQ_TEST" != "working" ]; then
+  echo 'Please install "jq"'
+  exit -1
+fi
+
+case $1 in
+  p|prod|production)
+    echo "Deploying to PROD..."
+    export STAGE=production
+    ;;
+  s|stage|staging)
+    echo "Deploying to STAGING..."
+    export STAGE=staging
+    ;;
+  *)
+    echo "PICK AN ENVIRONMENT! (prod|staging)"
+    exit -1
+esac
+
+if [ `cat env.json | jq .$STAGE | jq -r 'arrays | length'` ]; then
+  TARGETS=`cat env.json | jq .$STAGE | jq -r 'map(._FIREBASE_HOSTING_TARGET) | join("|")'`
+  if [[ $TARGETS =~ $2 ]]; then
+    HOSTING="--only hosting:$2"
+    SELECTED_CONFIG=`cat env.json | jq .$STAGE | jq -r "map(select(._FIREBASE_HOSTING_TARGET == \"$2\"))[0]"`
+  else
+    echo "PICK A HOSTING TARGET! ($TARGETS)"
+    exit -1
+  fi
+else
+  SELECTED_CONFIG=`cat env.json| jq .$STAGE`
+  HOSTING=''
+fi
+
+CONFIG=`echo "$SELECTED_CONFIG" | jq -r 'to_entries | map("export " + .key + "=" + (.value | tostring)) | join("\n")'`
+eval $CONFIG
+
+export REACT_APP_GIT_VERSION=`git describe --tags --long --always --dirty --broken`
+
+yarn build && firebase -P $STAGE deploy $HOSTING

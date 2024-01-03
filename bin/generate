@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# bin/generate app path/to/my_app
+# bin/generate app/actions path/to/my_actions
+# bin/generate component path/to/my_component
+
+node generators/generator.js $1 $2
+yarn pretty-one src/$2/**/*.js
+yarn lint src/$2 --fix
